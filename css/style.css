@@ -5,12 +5,21 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
 .flex{
     display: flex;
 }
 
 .margin-auto{
     margin: 0 auto;
+}
+
+.smallTxt{
+    font-size: 0.9rem;
 }
 
 .white-txt{
@@ -21,11 +30,15 @@
     color: red;
 }
 
-body{
-    background-color: #000000;
-}
-
 nav.top-nav{
     justify-content: flex-end;
     color: white;
+}
+
+nav.top-nav div{
+    background-color: #4a4a4a;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.5rem 0.3rem;
 }
