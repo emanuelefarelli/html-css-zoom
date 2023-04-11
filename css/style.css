@@ -32,6 +32,9 @@ body{
 .red-txt{
     color: red;
 }
+.green-txt{
+    color: rgb(5, 189, 5);
+}
 
 /* TOP NAV */
 
@@ -46,6 +49,7 @@ nav.top-nav div{
     border-radius: 5px;
     text-align: center;
     margin: 0.5rem 0.3rem;
+    cursor: pointer;
 }
 
 /* MAIN */
@@ -88,20 +92,23 @@ header{
     align-items: center;
 }
 
-header nav.header-left{
+header nav{
     align-items: center;
 }
+
 
 header div{
     font-size: 1.7rem;
     height: 100%;
     text-align: center;
     padding: 0 1rem;
+    cursor: pointer;
 }
 
 header p{
     font-size: 0.9rem;
     padding-top: 0.4rem;
+    cursor: pointer;
 }
 
 header nav.close-call{
